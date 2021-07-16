@@ -36,7 +36,7 @@ int main(int argc, char** argv)
   fclose(f2);
   
   
- printf("%d(%x) + %d(%x) = %d(%x)",input1,input1,input2,input2,input1+input2,input1+input2);
+ printf("%d(0x%x) + %d(0x%x) = %d(0x%x)",input1,input1,input2,input2,input1+input2,input1+input2);
  return 0;
 
 }
