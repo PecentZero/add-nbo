@@ -25,8 +25,8 @@ int main(int argc, char** argv)
 	return -1;
    }	
 
-  fread(input1,sizeof(uint32_t),1,f1);
-  fread(input2,sizeof(uint32_t),1,f2);
+  fread(&input1,sizeof(uint32_t),1,f1);
+  fread(&input2,sizeof(uint32_t),1,f2);
 
   input1 = ntohl(input1);
   input2 = ntohl(input2);
