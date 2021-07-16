@@ -2,7 +2,7 @@
 #include <stdint.h> //for uint32_t
 #include <netinet/in.h> //for ntohl htonl
 
-int main(int argc, char* argv)
+int main(int argc, char** argv)
 {
 
 
